@@ -7,7 +7,7 @@ body {
 }
 
 img {
-    object-fit: contain;
+    object-fit: cover;
     width: 100%;
     max-width: 100%;
     max-height: 80vh;
@@ -74,7 +74,7 @@ main {
 }
 
 a {
-    display: inline-block;
+    display: inline-flex;
     border-radius: 6px;
     overflow: hidden;
     width: 100%;
@@ -158,4 +158,8 @@ figcaption {
 
 .popup .link {
     display: inline;
+}
+
+.popup img {
+    object-fit: contain;
 }
